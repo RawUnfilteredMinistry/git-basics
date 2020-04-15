@@ -23,6 +23,8 @@ Next step is to commit the project after staging the project files:
 
 	git commit -m "message you want to add for the commit"		(This allows for the skipping of opening the text editor for commit message)
 
+	git commit -a -m 'message you want to add'		(this commits all the changes and submits the message instead of using add and commit)
+
 After modifying the file and you run git status you can run this to check for what the changes are:
 
 	git diff
@@ -34,3 +36,7 @@ Adding a branch to your git repository:
 	git checkout <nameofbranch>		(This switches you to the branch repo so you are not working in the main branch)
 	git checkout -b <nameofbranch>		(This creates a new branch and immediately switches to the new branch)
 	git branch	(This gives you a list of all your branches and tells you which one you are on)
+
+Merging branches when you have made changes that need to be committed to the main branch:
+
+	git merge <nameofbranch>		(Remember to be in the main branch you want to move the changes to not from)
