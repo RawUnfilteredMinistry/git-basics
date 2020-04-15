@@ -27,3 +27,10 @@ After modifying the file and you run git status you can run this to check for wh
 
 	git diff
 	git diff --staged		(getting the difference if staged already)
+
+Adding a branch to your git repository:
+
+	git branch <nameofbranch>
+	git checkout <nameofbranch>		(This switches you to the branch repo so you are not working in the main branch)
+	git checkout -b <nameofbranch>		(This creates a new branch and immediately switches to the new branch)
+	git branch	(This gives you a list of all your branches and tells you which one you are on)
