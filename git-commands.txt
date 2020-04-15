@@ -9,7 +9,7 @@ To get the status of a particular repository: (tells us information about what n
 When files are added to a repository you can add them as committed using: (this adds the files to the staging area to be included in the next commit)
 
 	git add <filename>
-	git add .		(This command adds all untracted to the staging area)
+	git add .		(This command adds all untracked to the staging area)
 
 To remove the commit from the staging:
 
