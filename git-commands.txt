@@ -1,0 +1,29 @@
+To initialize as a git repository - on the bash shell you will type: (make sure you are in the directory you want to make a repository)
+
+	git init
+
+To get the status of a particular repository: (tells us information about what needs to be done on the repo, keeps track of current state of the repo)
+
+	git status
+
+When files are added to a repository you can add them as committed using: (this adds the files to the staging area to be included in the next commit)
+
+	git add <filename>
+	git add .		(This command adds all untracted to the staging area)
+
+To remove the commit from the staging:
+
+	git rm --cached <file>
+
+Next step is to commit the project after staging the project files:
+
+	git commit		(This will open the text editor)
+
+	In the text editor you will want to type a message that tells what commit this is, and any message you want to add for your commit
+
+	git commit -m "message you want to add for the commit"		(This allows for the skipping of opening the text editor for commit message)
+
+After modifying the file and you run git status you can run this to check for what the changes are:
+
+	git diff
+	git diff --staged		(getting the difference if staged already)
