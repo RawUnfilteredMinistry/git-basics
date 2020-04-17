@@ -36,6 +36,10 @@ Adding a branch to your git repository:
 	git checkout <nameofbranch>		(This switches you to the branch repo so you are not working in the main branch)
 	git checkout -b <nameofbranch>		(This creates a new branch and immediately switches to the new branch)
 	git branch	(This gives you a list of all your branches and tells you which one you are on)
+	git branch --merged  (Tells you which branches have already been merged)
+	git branch --no-merge	(Tells you which branches haven't been merged)
+	git branch -d <nameofbranch>	(allows you to delete a branch that you no longer need)
+	git branch -D <nameofbranch>	(This is a forced delete of a branch even if changes haven't been committed)
 
 Merging branches when you have made changes that need to be committed to the main branch:
 
