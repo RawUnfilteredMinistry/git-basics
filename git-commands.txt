@@ -44,3 +44,11 @@ Adding a branch to your git repository:
 Merging branches when you have made changes that need to be committed to the main branch:
 
 	git merge <nameofbranch>		(Remember to be in the main branch you want to move the changes to not from)
+
+Sending files remotely to GitHub you need to set up the remote repo location using:
+
+	git remote add origin https://github.com/<myrepositoryname>/repo.github
+
+Pushing files to the remote repository you would use the following:
+
+	git push -u origin master	(The -u is upstream - establishing a link between those two branches)
