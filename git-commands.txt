@@ -47,7 +47,7 @@ Merging branches when you have made changes that need to be committed to the mai
 
 Sending files remotely to GitHub you need to set up the remote repo location using:
 
-	git remote add origin https://github.com/<myrepositoryname>/repo.github
+	git remote add origin https://github.com/<myrepositoryname>/repo.git
 
 Pushing files to the remote repository you would use the following:
 
